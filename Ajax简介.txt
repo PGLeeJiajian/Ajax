@@ -1,0 +1,15 @@
+1) Ajax 
+Ajax 全称是Asynchronous JavaScript and XML ,异步JavaScript和XML
+使用Ajax技术不必刷新整个页面，只需要对页面局部进行更新，可以节省网络宽带，提高页面加载速度，从而缩短用户等待时间，改善用户体验
+
+2)Ajax工作原理
+JavaScript
+异步数据获取技术XMLHTTPRequest
+xml
+XHTML和css
+
+XMLHttpRequest
+
+3）常用案例
+淘宝的购物车
+微博点赞评论

@@ -1,0 +1,47 @@
+1)http 请求
+XMLHttpRequest
+2）XMLHttpRequest 对象
+
+三种：
+xmlhttp = new ActivrXObject('Msxml2.XMLHTTP')
+IE6+
+
+request = new XMLHttpRequest();
+高级浏览器
+
+xmlhttp = new ActivrXObject('Microsoft.XMLHTTP')
+
+2.2.0 onreadystatechange 
+request.onreadystatechange = function(){      //XMLHttpRequest对象判断处理请求的状态的方法
+  if(request.readyState ==4){
+}
+}
+
+
+2.2.1 readytState 属性
+0 
+1 
+2
+3
+4
+分别代表处理请求的5个状态
+
+
+
+2.2.3 open()
+GET/RSOT
+URL
+异步处理标志
+
+
+2.2.4 send()
+request.send("GET","test.txt",true);
+request.onreadystatechange = function(){      //XMLHttpRequest对象判断处理请求的状态的方法
+  if(request.readyState ==4){      		//当请求状态为4的时候既请求已经被处理完成所作出的行为
+ 	alert(request.responseText);//行为
+}
+}
+
+
+.open()和.send()是Ajax的核心技术
+
