@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doAjax(the_request) {
+        var request = null;
+        if (window.XMLHttpRequest){
+
+            request = new XMLHttpRequest();
+        }else if(window.ActiveXObject){
+            request= new ActivrXObject('Microsoft.XMLHTTP')
+        }
+    }else{
+        alert("您的浏览器不支持ajax");
+        retuen false;
+    }
+</script>
+</body>
+</html>
